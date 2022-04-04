@@ -1,0 +1,20 @@
+{
+  "name": "1kpong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-help": "babel-minify --help",
+    "minify": "babel-minify 1kpong.js -o 1kpong.min.js && wc -c 1kpong.min.js",
+    "serve": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-minify": "^0.2.0",
+    "lite-server": "^2.3.0"
+  }
+}
